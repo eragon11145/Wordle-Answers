@@ -6,6 +6,7 @@ console.log(answers)
 function getAnswer(){
   year=document.getElementById('yEar').value
   day=document.getElementById('dAy').value
+  day=parseInt(day)
   if ((year==2022) && (day>229)){
     x=(answers[day-230])
   }
