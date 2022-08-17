@@ -11,7 +11,7 @@ function getAnswer(){
     x=(answers[day-230])
   }
   if (year>2022){
-    x=(answers[134+(365*(year-2023))+day])
+    x=(answers[135+(365*(year-2023))+day])
   }
 document.getElementById('aNswer').innerHTML="The Wordle Answer is " + x +'!'
 }
